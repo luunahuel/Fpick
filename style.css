@@ -5,13 +5,13 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #201d1d;
     text-align: center;
     padding: 1rem;
 }
 
 nav ul {
+   text-align: left;
     list-style: none;
     padding: 0;
 }
@@ -26,68 +26,79 @@ nav a {
     text-decoration: none;
 }
  main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
  }
- .intro {
+ .fpick {
     background-color: #f9f9f9;
     padding: 20px;
     text-align: center;
  }
 
- .features {
-    background-color: #e0e0e0;
+ .accion {
+    background-color: #ecebeb;
     padding: 20px;
  }
 
- .image-slider {
+ .contenedor-slider {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0;
+    background-color: #f9f9f9;
  }
 
- .slider-item {
-    flex: 0 0 calc(25% - 20px);
-    max-width: calc(25% - 20px);
-    margin-right: 20px;
-    padding: 10px;
+ .slider {
+    flex: 0 0 calc(33% - 23px);
+    max-width: calc(33% - 23px);
+    margin-right: 33px;
+    padding: 15px;
     box-sizing: border-box;
  }
 
- .slider-item img {
+ .slider img {
     width: 100%;
     height: auto;
  }
 
- .slider-item:last-child {
+ .slider:last-child {
     margin-right: 0;
  }
 
- .contact-form {
-    background-color: #f9f9f9;
+ .contact {
+    background-color: #ecebeb;
+    ;
     padding: 20px;
  }
 
- .contact-form h4 {
+ .contact h4 {
     text-align: center;
     margin-bottom: 20px;
  }
 
- .contact-form form {
+ .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
  }
 
- .contact-form label {
+ .contact label {
     font-weight: bold;
  }
 
- .contact-form input,
- .contact-form textarea {
+ .contact input,
+ .contact textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
+ }
+ 
+ .logo{
+   color:  rgb(14, 196, 14);
+ }
+ footer{
+   background-color: #201d1d;
+   color: #ecebeb;
+   padding: 1rem;
  }
