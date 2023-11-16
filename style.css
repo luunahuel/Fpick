@@ -103,23 +103,6 @@ nav a {
    padding: 1rem;
  }
 
-    /*Estilos adicionales para pantallas más pequeñas*/
-    @media (max-width: 768px) {
-      body {
-          font-size: 14px;
-          
-      }
-      
-  }
-
-  /*para aun mas pequeñas*/
-  @media (max-width: 480px) {
-      body {
-          font-size: 12px;
-         
-      }
-      
-  }
 
   .contact input,
   .contact textarea {
@@ -178,44 +161,60 @@ padding: 10px 20px; /*Ajusta el relleno según sea necesario*/
 
 
 
-
-
 .contenedorMapa {
-  
-  
- position: relative;
-   
-  
- overflow: hidden;
-   
-   
- padding-top: 75%; /* Esto proporciona un aspect ratio del 4:3 (450/600) */
+  position: relative;
+   overflow: hidden;
+   padding-top: 75%;
  }
  
  .contenedorMapa iframe {
-   
-   
- position: absolute;
-   
-   
- top: 0;
-   
-  
- left: 0;
-   
-   
- 
-   
- width: 100%;
-   
- 
- 
-  
- height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
  }
 
-
+  
 
 
  
+ @media (max-width: 768px) {
+   body {
+       font-size: 14px;
+   }
+
+   .fpick {
+       font-size: 12px;
+   }
+
+   .contenedor-slider {
+       
+       
+flex-direction: column;
+       
+       
+align-items: center;
+   }
+
+   .slider {
+       
+       
+flex: 1 1 calc(50% - 20px);
+   }
+}
+
+/* Estilos adicionales para pantallas aún más pequeñas */
+@media (max-width: 480px) {
+   body {
+       font-size: 12px;
+   }
+
+   
+   }
+
+.slider {
+       
  
+flex: 1 1 calc(100% - 20px);
+   }
