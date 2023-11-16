@@ -57,7 +57,7 @@ nav a {
  }
 
  .slider img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
  }
 
@@ -120,3 +120,39 @@ nav a {
       }
       
   }
+
+  .contact input,
+  .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #0faf2a;
+      transition: border-color 0.3s ease; /* Agrega una transición suave al color del borde */
+  }
+  
+  nav li:hover,
+nav li:focus {
+    background-color: #ccc; /* Cambia el fondo al pasar el ratón sobre el elemento */
+}
+
+/* Estilo del texto al pasar el ratón sobre los elementos del menú */
+nav li:hover a,
+nav li:focus a {
+    color: #333; /* Cambia el color del texto al pasar el ratón sobre el elemento */
+    font-size: 1.1em;/*1em es la unidad relativa al tamaño de la fuente del elemento 1.1 seria un incremento del 10%*/
+}
+
+
+.logo:hover,
+.logo:focus {
+    transform: scale(1.1); /*otra forma diferente a la anterior usando em, Escala el tamaño del logo al 110% */
+    cursor: pointer; /* Cambia el cursor para indicar que es interactivo porque es h1 */
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+#formulario {
+   scroll-margin-top: 50px; /* Ajusta según la altura que re redirecciona*/
+}

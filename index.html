@@ -8,14 +8,14 @@
     </head>
     <body>
         <header>
-            <h1 class="logo">First Pick
+            <h1 class="logo" onclick="rotarYRedirigir()">First Pick
           <!--<img src="C:\Users\lucas\OneDrive\Escritorio\Carpetalucas\imagenes\First Pick-logos.jpeg" alt="Imagen logo"> -->  
             </h1>
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Raffle</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#" id="inicio">Inicio</a></li>
+                    <li><a href="#" id="raffle">Raffle</a></li>
+                    <li><a href="#formulario"  id="contacto">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,9 +34,9 @@
             <section class="accion">
                 <h3>Comienza el juego</h3>
                 <ul>
-                    <li>Comprar</li>
-                    <li>Consignar</li>
-                    <li>Vender </li>
+                    <li onclick="realizarAccion('comprar')">Comprar</li>
+                    <li onclick="realizarAccion('consignar')">Consignar</li>
+                    <li onclick="realizarAccion('vender')">Vender </li>
                 </ul>
             </section>
             <section class="contenedor-slider">
@@ -51,7 +51,7 @@
                 </div>
                 
             </section>
-            <section class="contact">
+            <section class="contact" id="formulario">
                 <h4>Contacto</h4>
                 <form>
                     <label for="nombre">Nombre:</label>
@@ -70,7 +70,7 @@
                <p>lsalvo27@gmail.com  1156038092</p>
         </main>
         
-
+        <script src="script.js"></script>
  </body>
 
     
