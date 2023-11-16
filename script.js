@@ -41,9 +41,8 @@ document.getElementById('contacto').onclick = function() {
 
 
 function LogoRedirigir() {
-    
-
-    window.location.href = 'http://www.tiktok.com/@fpick1985';//redirige a tiktok
+ window.location.href = 'http://www.tiktok.com/@fpick1985';
+    //redirige a tiktok
 }
 
 

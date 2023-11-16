@@ -41,25 +41,7 @@ nav a {
     padding: 20px;
  }
 
- .contenedor-slider {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0;
-    background-color: #f9f9f9;
- }
 
- .slider {
-    flex: 0 0 calc(33% - 23px);
-    max-width: calc(33% - 23px);
-    margin-right: 33px;
-    padding: 15px;
-    box-sizing: border-box;
- }
-
- .slider img {
-    max-width: 100%;
-    height: auto;
- }
 
  .slider:last-child {
     margin-right: 0;
@@ -204,7 +186,7 @@ flex: 1 1 calc(50% - 20px);
    }
 }
 
-/* Estilos adicionales para pantallas aún más pequeñas */
+
 @media (max-width: 480px) {
    body {
        font-size: 12px;
@@ -218,3 +200,33 @@ flex: 1 1 calc(50% - 20px);
  
 flex: 1 1 calc(100% - 20px);
    }
+
+
+
+
+
+ .contenedor-slider {
+      display: flex;
+      justify-content: space-between; /* Ajusta el espacio entre las imágenes */
+      flex-wrap: wrap;
+      margin: 20px 0;
+      background-color: #f9f9f9;
+    }
+    
+    .slider {
+      flex: 0 0 30%; /* Establece el ancho máximo de cada slider al 30% del contenedor */
+      margin: 0 5px; /* Agrega margen entre los sliders */
+      padding: 5px;
+    box-sizing: border-box;
+    max-width: calc(40% - 20px);
+ }
+    
+    
+    .slider img {
+      width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible dentro del slider */
+      height: auto; /* Mantiene la proporción original de la imagen */
+    }
+
+
+
+    
