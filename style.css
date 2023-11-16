@@ -102,3 +102,21 @@ nav a {
    color: #ecebeb;
    padding: 1rem;
  }
+
+    /* Estilos adicionales para pantallas más pequeñas */
+    @media (max-width: 768px) {
+      body {
+          font-size: 14px;
+          
+      }
+      
+  }
+
+  /*para aun mas pequeñas */
+  @media (max-width: 480px) {
+      body {
+          font-size: 12px;
+         
+      }
+      
+  }
