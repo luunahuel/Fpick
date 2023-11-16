@@ -103,7 +103,7 @@ nav a {
    padding: 1rem;
  }
 
-    /* Estilos adicionales para pantallas más pequeñas */
+    /*Estilos adicionales para pantallas más pequeñas*/
     @media (max-width: 768px) {
       body {
           font-size: 14px;
@@ -112,7 +112,7 @@ nav a {
       
   }
 
-  /*para aun mas pequeñas */
+  /*para aun mas pequeñas*/
   @media (max-width: 480px) {
       body {
           font-size: 12px;
@@ -127,18 +127,18 @@ nav a {
       padding: 10px;
       margin-bottom: 10px;
       border: 1px solid #0faf2a;
-      transition: border-color 0.3s ease; /* Agrega una transición suave al color del borde */
+      transition: border-color 0.3s ease; /*Agrega una transición suave al color del borde*/
   }
   
   nav li:hover,
 nav li:focus {
-    background-color: #ccc; /* Cambia el fondo al pasar el ratón sobre el elemento */
+    background-color: #ccc; /*Cambia el fondo al pasar el ratón sobre el elemento*/
 }
 
 /* Estilo del texto al pasar el ratón sobre los elementos del menú */
 nav li:hover a,
 nav li:focus a {
-    color: #333; /* Cambia el color del texto al pasar el ratón sobre el elemento */
+    color: #333; /*Cambia el color del texto al pasar el ratón sobre el elemento*/
     font-size: 1.1em;/*1em es la unidad relativa al tamaño de la fuente del elemento 1.1 seria un incremento del 10%*/
 }
 
@@ -154,5 +154,22 @@ html {
 }
 
 #formulario {
-   scroll-margin-top: 50px; /* Ajusta según la altura que re redirecciona*/
+   scroll-margin-top: 50px; /*Ajusta según la altura que re redirecciona*/
+}
+
+.botonContacto {
+    
+   
+padding: 10px 20px; /*Ajusta el relleno según sea necesario*/
+   font-size: 16px; /*Tamaño de la fuente*/
+   background-color: rgb(14, 196, 14); /* Color de fondo */
+   color: #fff; /*Color del texto */
+   border: none; /*Sin borde*/
+   border-radius: 5px; /*Bordes redondeados*/
+   cursor: pointer; /*Cambia el cursor*/
+}
+
+/*Estilo al pasar el cursor sobre el botón*/
+.botonContacto:hover {
+   background-color: rgb(110, 219, 107); /*Cambia el color de fondo al pasar el cursor */
 }

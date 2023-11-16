@@ -42,6 +42,48 @@ document.getElementById('contacto').onclick = function() {
 
 function LogoRedirigir() {
     
-//redirige a tiktok
-    window.location.href = 'http://www.tiktok.com/@fpick1985';
+
+    window.location.href = 'http://www.tiktok.com/@fpick1985';//redirige a tiktok
 }
+
+
+
+
+/*verificar si rellena el formulario daniela y dar las gracias*/ 
+
+document.addEventListener("DOMContentLoaded", function () {
+ var form = document.querySelector("form");   // Obtener el elemento del formulario
+
+ 
+ form.addEventListener("submit", function (event) {// Agregar un event listener para el evento de envío del formulario
+
+
+//obtiene los valores de los campos del formulario
+        
+ var nombre = document.getElementById("nombre").value;
+        var email = document.getElementById("email").value;
+        var mensaje = document.getElementById("mensaje").value;
+
+        
+ if (nombre && email && mensaje ) {
+    if(nombre === "daniela")   {
+alert("Gracias Daniela por las clases y la correccion !!! " );     
+    }else {
+        alert("Formulario enviado con éxito. ¡Gracias, " + nombre + "!");
+    }
+
+        } else {
+            
+alert("Por favor, complete todos los campos del formulario.");
+        }
+    });
+});
+
+        
+   
+
+
+
+
+
+
