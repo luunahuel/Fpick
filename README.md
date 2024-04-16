@@ -23,4 +23,10 @@ Al explorar la página web, podrás observar que al ubicar el cursor sobre ciert
 
 Además, al completar el formulario, se verifica si el nombre ingresado es "Daniela". En caso afirmativo, se muestra una alerta específica, diferenciándola de las alertas generadas para otros usuarios que completen el formulario.
 
+<<<<<<< HEAD
 Para mejorar la experiencia visual cuando las dimensiones de la página se reducen, se implementa una reorganización de las imágenes en columnas, facilitando su visualización. Asimismo, se reduce el tamaño de las fuentes para adaptarse al espacio disponible y mantener una presentación estéticamente agradable en dispositivos con pantallas más pequeñas.
+=======
+Para mejorar la experiencia visual cuando las dimensiones de la página se reducen, se implementa una reorganización de las imágenes en columnas, facilitando su visualización. Asimismo, se reduce el tamaño de las fuentes para adaptarse al espacio disponible y mantener una presentación estéticamente agradable en dispositivos con pantallas más pequeñas.
+  
+  
+>>>>>>> 12f8d746e5297ff53d61aa10ce9691d3ae229eef
