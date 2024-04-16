@@ -19,5 +19,8 @@ Estructura del Proyecto
   DEPLOY GitHub: https://luunahuel.github.io/SegundaEntrega/
   Link al repositorio de GitHub: https://github.com/luunahuel/SegundaEntrega
 
-  
-  
+Al explorar la página web, podrás observar que al ubicar el cursor sobre ciertos elementos, como el logotipo, se activa una animación mediante CSS o se redirecciona a otra ubicación. Al hacer clic en "Contacto", la página te dirige automáticamente a la sección que contiene el formulario.
+
+Además, al completar el formulario, se verifica si el nombre ingresado es "Daniela". En caso afirmativo, se muestra una alerta específica, diferenciándola de las alertas generadas para otros usuarios que completen el formulario.
+
+Para mejorar la experiencia visual cuando las dimensiones de la página se reducen, se implementa una reorganización de las imágenes en columnas, facilitando su visualización. Asimismo, se reduce el tamaño de las fuentes para adaptarse al espacio disponible y mantener una presentación estéticamente agradable en dispositivos con pantallas más pequeñas.
