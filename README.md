@@ -16,8 +16,9 @@ Estructura del Proyecto
 - imagenes/: Carpeta que contiene las imágenes utilizadas en el sitio.
 
   El proyecto se encuentra en una fase de produccion.
-  DEPLOY GitHub: https://luunahuel.github.io/FPICK/
-  Link al repositorio de GitHub: https://github.com/luunahuel/FPICK
+  DEPLOY GitHub: https://luunahuel.github.io/Fpick/
+  Link al repositorio de GitHub: https://github.com/luunahuel/Fpick
+
 
 Al explorar la página web, podrás observar que al ubicar el cursor sobre ciertos elementos, como el logotipo, se activa una animación mediante CSS o se redirecciona a otra ubicación. Al hacer clic en "Contacto", la página te dirige automáticamente a la sección que contiene el formulario.
 
